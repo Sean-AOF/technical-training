@@ -16,7 +16,7 @@ from odoo import models, fields, api
 
 
 
-from odoo import models,fields,api
+#from odoo import models,fields,api
 
 class Course(models.model)
     _name = 'open_academy.course'
