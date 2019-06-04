@@ -13,3 +13,17 @@ from odoo import models, fields, api
 #     @api.depends('value')
 #     def _value_pc(self):
 #         self.value2 = float(self.value) / 100
+
+
+
+from odoo import models,fields,api
+
+class Course(models.model)
+    _name = 'open_academy.course'
+
+    title = fields.Char()
+    level = fields.Selection([
+        ('easy','Easy'),
+        ('normal','Normal'),
+        ('hard','Hard')
+    ])
