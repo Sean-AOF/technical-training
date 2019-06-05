@@ -17,10 +17,10 @@ class Person(models.Model):
     name = fields.Char(compute='_compute_name', store=True)
     
     
-#     @api.depends('first_name','last_name')
-#     def _compute_name(self):
-#         for rec in self
-#             rec.name="{} {}".format(rec.first_name,rec.last_name)
+    @api.depends('first_name','last_name')
+    def _compute_name(self):
+        for rec in self:
+            rec.name="{} {}".format(rec.first_name,rec.last_name)
 
 
 		

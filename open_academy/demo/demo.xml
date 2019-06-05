@@ -1,24 +1,11 @@
 <odoo>
     <data>
-        <!--   <record id="object1" model="open_academy.open_academy"> -->
-        <!--     <field name="name">Object 1</field> -->
-        <!--     <field name="value">10</field> -->
-        <!--   </record> -->
-        <!--  -->
-        <!--   <record id="object2" model="open_academy.open_academy"> -->
-        <!--     <field name="name">Object 2</field> -->
-        <!--     <field name="value">20</field> -->
-        <!--   </record> -->
-        <!--  -->
-        <!--   <record id="object3" model="open_academy.open_academy"> -->
-        <!--     <field name="name">Object 3</field> -->
-        <!--     <field name="value">30</field> -->
-        <!--   </record> -->
-        <!--  -->
-        <!--   <record id="object4" model="open_academy.open_academy"> -->
-        <!--     <field name="name">Object 4</field> -->
-        <!--     <field name="value">40</field> -->
-        <!--   </record> -->
-        <!--  -->
+           <record id="math_course_101" model="open_academy.course"> 
+             <field name="name">Math</field> 
+             <field name="level">easy</field> 
+           </record> 
+        
+        
+        
     </data>
 </odoo>
