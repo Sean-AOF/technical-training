@@ -18,8 +18,10 @@ from odoo import models, fields, api
 
 #from odoo import models,fields,api
 
-class Course(models.model)
+class Course(models.Model):
     _name = 'open_academy.course'
+    _description = 'Course Info'
+    _rec_name = 'title'
 
     title = fields.Char()
     level = fields.Selection([
