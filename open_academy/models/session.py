@@ -14,4 +14,4 @@ class Session(models.Model):
     
     date_start = fields.Date(string='Start Date')
     end_date = fields.Date(string = 'End Date')
-    course = fields.Many2one('open_academy.course', required=True) #, ondelete='set null'	
+    # course = fields.Many2one('open_academy.course', required=True) #, ondelete='set null'	
