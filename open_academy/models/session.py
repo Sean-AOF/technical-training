@@ -1,4 +1,3 @@
-session
 # -*- coding: utf-8 -*-
 
 
