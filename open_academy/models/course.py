@@ -13,3 +13,4 @@ class Course(models.Model):
         ('normal','Normal'),
         ('hard','Hard')
     ],string="Diffiulty")
+
