@@ -12,7 +12,7 @@ class Person(models.Model):
     last_name = fields.Char(string='Last Name',require=True)
     name = fields.Char(compute='_compute_name')
     
-     @api.depends(['first_name','last_name'])
+     @api.depends('first_name','last_name')
     def _compute_name(self):
         for rec in self
             rec.name="{} {}".format(rec.first_name,rec.last_name)
