@@ -4,6 +4,7 @@ from odoo import models, fields, api, _
 
 class Person(models.Model):
     _name = 'open_academy.person'
+    _description='stuff'
     
     first_name = fields.Char(required=True)
     last_name = fields.Char(required=True)
