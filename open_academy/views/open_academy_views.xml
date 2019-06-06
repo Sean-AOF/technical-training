@@ -35,12 +35,27 @@
                     <field name="name"/>
                     <field name="level"/>
                     <field name="description"/>
-                   <filter name="easy_courses" string="Easy Courses" domain="[('level', '=', 'easy')]"/>
+                    <filter name="easy_courses" string="Easy Courses" domain="[('level', '=', 'easy')]"/>
+                    <group string="Group By">
+                        <filter name="by_difficulty" string="Difficulty" context="{'group_by': 'level'}"/>
+                    </group>                               
                 </search>
             </field>
         </record> 
       
-      
+  
+        <record model="ir.actions.act_window" id="course_list_action">
+            <field name="name">Courses</field>
+            <field name="res_model">open_academy.course</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="context" eval="{'search_default_easy_courses': 1}"/>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">Create the first course
+                </p>
+            </field>
+        </record>    
+
       
   </data>
 </odoo>      
