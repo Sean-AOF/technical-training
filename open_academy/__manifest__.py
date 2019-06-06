@@ -37,4 +37,7 @@
     'demo': [
          # 'demo/demo.xml',
     ],
+    'css': [
+        'static/src/css/bar_css.css',
+    ]
 }

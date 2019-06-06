@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
+
+    <template id="assets_common_inherit" name="Bar Color" inherit_id="web.assets_common">
+        <xpath expr="link[last()]" position="after">
+            <link rel="stylesheet" type="text/scss" href="/open_academy/static/src/css/bar_css.css"/>
+        </xpath>
+    </template>
+
     <record id="sale_order_form_inherit" model="ir.ui.view">
     <field name="name">sale.order.form.inherit</field>
     <field name="model">sale.order</field>
