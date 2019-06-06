@@ -31,6 +31,7 @@
         'security/ir.model.access.csv',
         'views/open_academy_views.xml',
         'reports/sale_order_reports_inherit.xml',
+        'views/sale_order_inherit_view.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
