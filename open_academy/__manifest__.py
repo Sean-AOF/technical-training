@@ -29,6 +29,7 @@
         'data/data.xml',
         'views/menuitems.xml',
         'security/ir.model.access.csv',
+        'views/open_academy_views.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
