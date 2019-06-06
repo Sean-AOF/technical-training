@@ -25,5 +25,22 @@
                 </form>
             </field>
         </record>
+      
+      
+        <record model="ir.ui.view" id="course_search_view">
+            <field name="name">course.search</field>
+            <field name="model">open_academy.course</field>
+            <field name="arch" type="xml">
+                <search>
+                    <field name="name"/>
+                    <field name="level"/>
+                    <field name="description"/>
+                   <filter name="easy_courses" string="Easy Courses" domain="[('level', '=', 'easy')]"/>
+                </search>
+            </field>
+        </record> 
+      
+      
+      
   </data>
 </odoo>      
