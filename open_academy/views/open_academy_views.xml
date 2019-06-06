@@ -1,6 +1,5 @@
 <odoo>
   <data>
-
         <record model="ir.ui.view" id="course_form_view">
             <field name="name">course.form</field>
             <field name="model">open_academy.course</field>
@@ -11,10 +10,20 @@
                             <field name="name"/>
                             <field name="level"/>
                         </group>
+                        <group>
+                            <field name="create_date"/>
+                        </group>                        
+                        <notebook>
+                            <page string="Description">
+                                <field name="description"/>
+                            </page>
+                            <page string="About">
+                                This is an example of notebooks
+                            </page>
+                        </notebook>                                                                  
                     </sheet>
                 </form>
             </field>
         </record>
-      
   </data>
 </odoo>      

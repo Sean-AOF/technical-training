@@ -7,6 +7,9 @@ class Course(models.Model):
     _description = 'Course info'
     
     name = fields.Char(string='Title', required=True)
+    
+    description = fields.Char(string='description', required=True,default="a value")
+    
     level = fields.Selection([
         ('easy', 'Easy'),
         ('normal', 'Normal'),
