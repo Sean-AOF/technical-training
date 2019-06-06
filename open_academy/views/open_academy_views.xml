@@ -13,7 +13,14 @@
                         <group>
                             <field name="create_date"/>
                         </group>                        
-                                                                       
+                        <notebook>
+                            <page string="Description">
+                                <field name="description"/>
+                            </page>
+                            <page string="About">
+                                This is an example of notebooks
+                            </page>
+                        </notebook>                                                            
                     </sheet>
                 </form>
             </field>
