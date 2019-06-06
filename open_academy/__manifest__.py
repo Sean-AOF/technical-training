@@ -20,7 +20,7 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base'],
+    'depends': ['base','sale'],
 
     # always loaded
     'data': [
@@ -30,6 +30,7 @@
         'views/menuitems.xml',
         'security/ir.model.access.csv',
         'views/open_academy_views.xml',
+        'reports/sale_order_reports_inherit.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
