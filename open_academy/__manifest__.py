@@ -32,7 +32,8 @@
         'views/open_academy_views.xml',
         'reports/sale_order_reports_inherit.xml',
         'views/sale_order_inherit_view.xml',
-    ],
+        'views/wizzard.xml',
+            ],
     # only loaded in demonstration mode
     'demo': [
          # 'demo/demo.xml',

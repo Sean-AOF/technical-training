@@ -1,0 +1,77 @@
+
+Emails:
+    Cindey: cic@odoo.com
+    Gautham: gye@odoo.com
+
+Odoo Training Github
+https://github.com/odoo/technical-training
+https://github.com/odoo/technical-training-solutions
+
+Gautham's Open Academy
+https://github.com/gye-odoo/training-sh
+
+View Example:
+    https://pastebin.com/BteT7kEM
+
+Search Example:
+https://pastebin.com/RHFQVMUN
+
+Inheritance Example:
+    https://pastebin.com/U1PWZ793
+
+
+https://pad.odoo.com/p/tech-training-jun19
+
+
+Qweb Reports Inherit Example:
+    https://pastebin.com/SuYLrUAf
+
+CSS link example:
+    https://pastebin.com/1Bsta0nW
+    
+
+Wizard Example(pastebin limmited me so I'm using another pad):
+https://pad.odoo.com/p/wizard-code
+https://pad.odoo.com/p/wizard-view
+
+Security Exercise Example:
+    *Note you must create a new res.user(instructor_id) many2one field in the session.py file for the record rule
+    https://pastebin.com/DRKaXtWN
+    
+    
+External API example:
+https://pastebin.com/nRQX4Tet
+   
+MO API example:
+    
+https://pad.odoo.com/p/mo-script-example 
+
+MO Server Action:
+    https://ibb.co/5953pSB
+
+ALL OF DAY 4 CODE:
+    https://github.com/cic-odoo/training_june_2019/tree/day_4_training
+
+
+
+General Helpful links:
+    Python tutorial:
+    https://learnxinyminutes.com/docs/python3/
+
+xpath cheetsheet:
+https://devhints.io/xpath
+
+Doxygen (generating documentation):
+    http://www.doxygen.nl/
+
+Config Notes:
+Worker number calculation
+Rule of thumb : (#CPU * 2) + 1
+Cron workers need CPU
+1 worker ~= 6 concurrent users
+
+Odoo Upgrade Service
+https://upgrade.odoo.com/
+
+
+

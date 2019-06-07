@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
-    <act_window id="course_wizzard_action" 
-    name="Course Level" 
-    res_model="open_academy.wizard" 
-    src_model="open_academy.course"
-    view_mode="form" 
-    target="new" 
-    key2="client_action_multi" />
-
-    <record id="wizzard_level_course_view" model="ir.url.view">
-        <field name="name">Wizzard Level </field>
-        <field name="model">open_academy.wizzard</field>
-        <field name="action" type="xml">
+    <act_window id="course_wizard_action"
+        name ="Course Level" 
+        res_model="open_academy.wizard"
+        src_model="open_academy.course" 
+        view_mode="form" 
+        target="new" 
+        key2="client_action_multi"/>
+    
+    <record id="wizard_level_course_view" model="ir.ui.view">
+        <field name="name">Wizard Level</field>
+        <field name="model">open_academy.wizard</field>
+        <field name="arch" type="xml">
             <form>
                 <group>
-                    <field name="course_list" widget="many2many_lsit" />
-                    <field name="level" />
+                    <field name="course_ids" widget="many2many_list"/>
+                    <field name="level"/>
                 </group>
                 <footer>
-                    <button name="set_level" string="change_level" class="btn-primary" type="object">
-                    <button name="cancel" string="cancel" class="btn-danger" special="cancel">
+                    <button name="set_level" string="Change Level" class="btn-primary" type="object"/>
+                    <button string="Cancel" class="btn-secondary" special="cancel"/>
                 </footer>
             </form>
+        </field>
     </record>
 </odoo>

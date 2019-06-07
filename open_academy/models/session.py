@@ -10,3 +10,4 @@ class Session(models.Model):
     date_end = fields.Date(string='End Date')
     course = fields.Many2one('open_academy.course', required=True)
     
+    instructor_id = fields.Many2one('res.users', string="Instructor")
