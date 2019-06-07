@@ -1,0 +1,25 @@
+./odoo-bin --addons-path=addons,../mymodules --db-filter=mydb$ --http-port=8070
+
+./odoo-bin --addons-path=addons,../mymodules/technical-training --http-port=8071 -d test
+
+./odoo-bin --addons-path=addons,../mymodules/technical-training --http-port=8071 -d test -u open_academy
+
+
+
+
+git branch
+git branch -t oa origin/oa
+git checkout oa
+
+
+report templates inherit qweb: http://localhost:8071/web?debug#id=692&action=26&model=ir.ui.view&view_type=form&menu_id=4
+
+
+
+
+
+
+
+  git config --global user.email "sean@airofan.com"
+  git config --global user.name "sean"
+
